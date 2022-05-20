@@ -1,0 +1,140 @@
+/*url das fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+
+
+/*reset da página*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);  /*gradiente do fundo*/
+}
+
+
+
+/*header*/
+.cabecalho { 
+    display: flex;  /*flexbox*/
+    flex-direction: row;  /*flexbox - direção dos itens- horizontal*/
+    align-items: center;  /*flexbox - itens alinhados - no centro*/
+    justify-content: space-around;  /*flexbox - espaçamento generalizado*/
+    padding: 24px;  /*espaçamento pro cabeçalho*/
+}
+
+.cabecalho-imagem {
+    height: 72px;  /*altura*/
+}
+
+.cabecalho-menu {
+    display: flex;  /*p poder usar o flexbox*/
+    gap: 32px;  /*espaçamento*/
+}
+
+.cabecalho-menu-item {
+    font-family: 'Sarala', sans-serif;  /*fonte*/
+    color: #FFF2E7;  /*cor da fonte*/
+    font-weight: 400;  /*negrito da fonte*/
+    font-size: 18px;  /*tamanho da fonte*/
+}
+
+
+
+/*main*/
+.conteudo {
+    border-top: 0.4px solid #FFF2E7;  /*linha - grossura - formato - cor*/
+    margin-bottom: 48px;  /*distância debaixo*/
+}
+/*main section1*/
+.conteudo-principal {
+    display: flex;  /*flexbox*/
+    flex-direction: row;  /*flexbox - direção dos itens- horizontal*/
+    align-items: center;  /*flexbox - itens alinhados - no centro*/
+    justify-content: space-around;  /*flexbox - espaçamento generalizado*/
+}
+
+.conteudo-principal-escrito {
+    display: flex;  /*flexbox*/
+    flex-direction: column;  /*flexbox - direção dos itens- vertical*/
+    gap: 32px;  /*espaçamento*/
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family: 'Righteous', cursive;  /*fonte*/
+    font-weight: 400;  /*negrito da fonte*/
+    font-size: 64px;  /*tamanho da fonte*/
+    color: #FFF2E7;  /*cor da fonte*/
+}
+
+.conteudo-principal-escrito-subtitulo {
+    font-family: 'Sarala', sans-serif;  /*fonte*/
+    font-weight: 400;  /*negrito da fonte*/
+    font-size: 24px;  /*tamanho da fonte*/
+    color: #ECD6C4;  /*cor da fonte*/
+}
+
+.conteudo-principal-escrito-botao {
+    background-color: #ECD6C4;  /*cor de fundo*/
+    width: 180px;  /*largura*/
+    height: 60px;  /*altura*/
+    border: none;  /*borda do botão - nenhuma*/
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);  /*sombra - tamanho - cor*/
+    border-radius: 20px;  /*arredonda a borda*/
+    
+    font-family: 'Sarala', sans-serif;  /*fonte*/
+    font-weight: 400;  /*negrito da fonte*/
+    font-size: 24px;  /*tamanho da fonte*/
+    color: #2F2325;  /*cor da fonte*/
+}
+
+.conteudo-principal-escrito-botao:hover {  /*quando o mouse passa por cima*/
+    background-color: rgba(236, 214, 196, 0.53);  /*cor de fundo*/
+}
+
+.conteudo-principal-imagem {
+    height: 430px;  /*altura máxima da imagem*/
+}
+/*main section2*/
+.conteudo-secundario {
+    display: flex;  /*flexbox*/
+    flex-direction: column;  /*flexbox - direção dos itens- vertical*/
+    align-items: center;  /*flexbox - itens alinhados - no centro*/
+    gap: 24px;  /*espaçamento*/
+    margin-top: 48px;  /*distância de cima*/
+}
+
+.conteudo-secundario-titulo {
+    border-top: 0.4px solid #FFF2E7;  /*linha - grossura - formato - cor*/
+    padding-top: 48px;  /*espaçamento da borda pro conteúdo*/
+
+    font-family: 'Righteous', cursive;  /*fonte*/
+    font-weight: 400;  /*negrito da fonte*/
+    font-size: 24px;  /*tamanho da fonte*/
+    color: #FFF2Ef;  /*cor da fonte*/
+    margin-bottom: 16px;  /*distância debaixo*/
+}
+
+.conteudo-secundario-paragrafo {
+    font-family: 'Sarala', sans-serif;  /*fonte*/
+    font-weight: 300;  /*negrito da fonte*/
+    font-size: 18px;  /*tamanho da fonte*/
+    color: #ECD6C4;  /*cor da fonte*/
+}
+
+
+
+/*footer*/
+.rodape {
+    padding: 32px;  /*espaçamento em todos os lados*/
+    border-top: 0.4px solid #FFF2E7;  /*linha - grossura - formato - cor*/
+}
+
+.rodape-imagem {
+    height: 48px;  /*altura máxima*/
+    display: block;  /*usar espaço do elemento em bloco*/
+    margin: 0 auto;  /*bloco*/
+}
